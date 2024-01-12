@@ -1,0 +1,14 @@
+1. PM2 is a production process manager for Node.js applications with a built-in load balancer.
+2. It allows you to keep applications alive forever.
+
+# PM2 [https://www.npmjs.com/package/pm2]
+- pm2 start app.js 
+- pm2 start api.js -i <processes> // -1
+- pm2 list
+- pm2 stop     <app_name|namespace|id|'all'|json_conf>
+- pm2 restart  <app_name|namespace|id|'all'|json_conf>
+- pm2 delete   <app_name|namespace|id|'all'|json_conf>
+- pm2 describe <id|app_name>
+- pm2 monit
+- pm2 logs
+- pm2 reload all
